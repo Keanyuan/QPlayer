@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC2754DE1D3E092000BBAF3F /* ContentVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2754DD1D3E092000BBAF3F /* ContentVideoView.m */; };
+		EC2754E61D3E10E500BBAF3F /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC2754E51D3E10E500BBAF3F /* bg.jpg */; };
+		ECA57EC31D3D11E3009389F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA57EC21D3D11E3009389F4 /* main.m */; };
+		ECA57EC61D3D11E3009389F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA57EC51D3D11E3009389F4 /* AppDelegate.m */; };
+		ECA57EC91D3D11E3009389F4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA57EC81D3D11E3009389F4 /* ViewController.m */; };
+		ECA57ECC1D3D11E3009389F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECA57ECA1D3D11E3009389F4 /* Main.storyboard */; };
+		ECA57ECE1D3D11E3009389F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECA57ECD1D3D11E3009389F4 /* Assets.xcassets */; };
+		ECA57ED11D3D11E3009389F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECA57ECF1D3D11E3009389F4 /* LaunchScreen.storyboard */; };
+		ECA57EDC1D3D11E3009389F4 /* QPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA57EDB1D3D11E3009389F4 /* QPlayerTests.m */; };
+		ECA57EE71D3D11E3009389F4 /* QPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA57EE61D3D11E3009389F4 /* QPlayerUITests.m */; };
+		ECA57EFA1D3D1253009389F4 /* QPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA57EF91D3D1253009389F4 /* QPlayerView.m */; };
+		ECA57F151D3D1A5F009389F4 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECA57F141D3D1A5F009389F4 /* MediaPlayer.framework */; };
+		ECA57F181D3D1AEF009389F4 /* QVideoPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA57F171D3D1AEF009389F4 /* QVideoPlayerViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECA57ED81D3D11E3009389F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECA57EB61D3D11E3009389F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECA57EBD1D3D11E3009389F4;
+			remoteInfo = QPlayer;
+		};
+		ECA57EE31D3D11E3009389F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECA57EB61D3D11E3009389F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECA57EBD1D3D11E3009389F4;
+			remoteInfo = QPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC2754DC1D3E092000BBAF3F /* ContentVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentVideoView.h; sourceTree = "<group>"; };
+		EC2754DD1D3E092000BBAF3F /* ContentVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentVideoView.m; sourceTree = "<group>"; };
+		EC2754E51D3E10E500BBAF3F /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
+		ECA57EBE1D3D11E3009389F4 /* QPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECA57EC21D3D11E3009389F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECA57EC41D3D11E3009389F4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ECA57EC51D3D11E3009389F4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ECA57EC71D3D11E3009389F4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ECA57EC81D3D11E3009389F4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ECA57ECB1D3D11E3009389F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECA57ECD1D3D11E3009389F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECA57ED01D3D11E3009389F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECA57ED21D3D11E3009389F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECA57ED71D3D11E3009389F4 /* QPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECA57EDB1D3D11E3009389F4 /* QPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QPlayerTests.m; sourceTree = "<group>"; };
+		ECA57EDD1D3D11E3009389F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECA57EE21D3D11E3009389F4 /* QPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECA57EE61D3D11E3009389F4 /* QPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QPlayerUITests.m; sourceTree = "<group>"; };
+		ECA57EE81D3D11E3009389F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECA57EF81D3D1253009389F4 /* QPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QPlayerView.h; sourceTree = "<group>"; };
+		ECA57EF91D3D1253009389F4 /* QPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QPlayerView.m; sourceTree = "<group>"; };
+		ECA57F141D3D1A5F009389F4 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		ECA57F161D3D1AEF009389F4 /* QVideoPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QVideoPlayerViewController.h; sourceTree = "<group>"; };
+		ECA57F171D3D1AEF009389F4 /* QVideoPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QVideoPlayerViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECA57EBB1D3D11E3009389F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA57F151D3D1A5F009389F4 /* MediaPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA57ED41D3D11E3009389F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA57EDF1D3D11E3009389F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECA57EB51D3D11E3009389F4 = {
+			isa = PBXGroup;
+			children = (
+				ECA57EC01D3D11E3009389F4 /* QPlayer */,
+				ECA57EDA1D3D11E3009389F4 /* QPlayerTests */,
+				ECA57EE51D3D11E3009389F4 /* QPlayerUITests */,
+				ECA57EBF1D3D11E3009389F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECA57EBF1D3D11E3009389F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECA57EBE1D3D11E3009389F4 /* QPlayer.app */,
+				ECA57ED71D3D11E3009389F4 /* QPlayerTests.xctest */,
+				ECA57EE21D3D11E3009389F4 /* QPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECA57EC01D3D11E3009389F4 /* QPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				ECA57EC41D3D11E3009389F4 /* AppDelegate.h */,
+				ECA57EC51D3D11E3009389F4 /* AppDelegate.m */,
+				ECA57EC71D3D11E3009389F4 /* ViewController.h */,
+				ECA57EC81D3D11E3009389F4 /* ViewController.m */,
+				EC2754DC1D3E092000BBAF3F /* ContentVideoView.h */,
+				EC2754DD1D3E092000BBAF3F /* ContentVideoView.m */,
+				ECA57ECA1D3D11E3009389F4 /* Main.storyboard */,
+				ECA57EF41D3D1217009389F4 /* QVideoPlayer */,
+				ECA57ECD1D3D11E3009389F4 /* Assets.xcassets */,
+				ECA57ECF1D3D11E3009389F4 /* LaunchScreen.storyboard */,
+				ECA57ED21D3D11E3009389F4 /* Info.plist */,
+				ECA57EC11D3D11E3009389F4 /* Supporting Files */,
+			);
+			path = QPlayer;
+			sourceTree = "<group>";
+		};
+		ECA57EC11D3D11E3009389F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC2754E51D3E10E500BBAF3F /* bg.jpg */,
+				ECA57EC21D3D11E3009389F4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECA57EDA1D3D11E3009389F4 /* QPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECA57EDB1D3D11E3009389F4 /* QPlayerTests.m */,
+				ECA57EDD1D3D11E3009389F4 /* Info.plist */,
+			);
+			path = QPlayerTests;
+			sourceTree = "<group>";
+		};
+		ECA57EE51D3D11E3009389F4 /* QPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECA57EE61D3D11E3009389F4 /* QPlayerUITests.m */,
+				ECA57EE81D3D11E3009389F4 /* Info.plist */,
+			);
+			path = QPlayerUITests;
+			sourceTree = "<group>";
+		};
+		ECA57EF41D3D1217009389F4 /* QVideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				ECA57EFB1D3D1A35009389F4 /* Assets */,
+				ECA57EF81D3D1253009389F4 /* QPlayerView.h */,
+				ECA57EF91D3D1253009389F4 /* QPlayerView.m */,
+				ECA57F161D3D1AEF009389F4 /* QVideoPlayerViewController.h */,
+				ECA57F171D3D1AEF009389F4 /* QVideoPlayerViewController.m */,
+			);
+			path = QVideoPlayer;
+			sourceTree = "<group>";
+		};
+		ECA57EFB1D3D1A35009389F4 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				ECA57F141D3D1A5F009389F4 /* MediaPlayer.framework */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECA57EBD1D3D11E3009389F4 /* QPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECA57EEB1D3D11E3009389F4 /* Build configuration list for PBXNativeTarget "QPlayer" */;
+			buildPhases = (
+				ECA57EBA1D3D11E3009389F4 /* Sources */,
+				ECA57EBB1D3D11E3009389F4 /* Frameworks */,
+				ECA57EBC1D3D11E3009389F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QPlayer;
+			productName = QPlayer;
+			productReference = ECA57EBE1D3D11E3009389F4 /* QPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECA57ED61D3D11E3009389F4 /* QPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECA57EEE1D3D11E3009389F4 /* Build configuration list for PBXNativeTarget "QPlayerTests" */;
+			buildPhases = (
+				ECA57ED31D3D11E3009389F4 /* Sources */,
+				ECA57ED41D3D11E3009389F4 /* Frameworks */,
+				ECA57ED51D3D11E3009389F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECA57ED91D3D11E3009389F4 /* PBXTargetDependency */,
+			);
+			name = QPlayerTests;
+			productName = QPlayerTests;
+			productReference = ECA57ED71D3D11E3009389F4 /* QPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECA57EE11D3D11E3009389F4 /* QPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECA57EF11D3D11E3009389F4 /* Build configuration list for PBXNativeTarget "QPlayerUITests" */;
+			buildPhases = (
+				ECA57EDE1D3D11E3009389F4 /* Sources */,
+				ECA57EDF1D3D11E3009389F4 /* Frameworks */,
+				ECA57EE01D3D11E3009389F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECA57EE41D3D11E3009389F4 /* PBXTargetDependency */,
+			);
+			name = QPlayerUITests;
+			productName = QPlayerUITests;
+			productReference = ECA57EE21D3D11E3009389F4 /* QPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECA57EB61D3D11E3009389F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = com.storyboard.pactera;
+				TargetAttributes = {
+					ECA57EBD1D3D11E3009389F4 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					ECA57ED61D3D11E3009389F4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = ECA57EBD1D3D11E3009389F4;
+					};
+					ECA57EE11D3D11E3009389F4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = ECA57EBD1D3D11E3009389F4;
+					};
+				};
+			};
+			buildConfigurationList = ECA57EB91D3D11E3009389F4 /* Build configuration list for PBXProject "QPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECA57EB51D3D11E3009389F4;
+			productRefGroup = ECA57EBF1D3D11E3009389F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECA57EBD1D3D11E3009389F4 /* QPlayer */,
+				ECA57ED61D3D11E3009389F4 /* QPlayerTests */,
+				ECA57EE11D3D11E3009389F4 /* QPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECA57EBC1D3D11E3009389F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA57ED11D3D11E3009389F4 /* LaunchScreen.storyboard in Resources */,
+				ECA57ECE1D3D11E3009389F4 /* Assets.xcassets in Resources */,
+				EC2754E61D3E10E500BBAF3F /* bg.jpg in Resources */,
+				ECA57ECC1D3D11E3009389F4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA57ED51D3D11E3009389F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA57EE01D3D11E3009389F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECA57EBA1D3D11E3009389F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA57EC91D3D11E3009389F4 /* ViewController.m in Sources */,
+				ECA57EC61D3D11E3009389F4 /* AppDelegate.m in Sources */,
+				EC2754DE1D3E092000BBAF3F /* ContentVideoView.m in Sources */,
+				ECA57F181D3D1AEF009389F4 /* QVideoPlayerViewController.m in Sources */,
+				ECA57EFA1D3D1253009389F4 /* QPlayerView.m in Sources */,
+				ECA57EC31D3D11E3009389F4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA57ED31D3D11E3009389F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA57EDC1D3D11E3009389F4 /* QPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA57EDE1D3D11E3009389F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA57EE71D3D11E3009389F4 /* QPlayerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECA57ED91D3D11E3009389F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECA57EBD1D3D11E3009389F4 /* QPlayer */;
+			targetProxy = ECA57ED81D3D11E3009389F4 /* PBXContainerItemProxy */;
+		};
+		ECA57EE41D3D11E3009389F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECA57EBD1D3D11E3009389F4 /* QPlayer */;
+			targetProxy = ECA57EE31D3D11E3009389F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECA57ECA1D3D11E3009389F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECA57ECB1D3D11E3009389F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECA57ECF1D3D11E3009389F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECA57ED01D3D11E3009389F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECA57EE91D3D11E3009389F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECA57EEA1D3D11E3009389F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECA57EEC1D3D11E3009389F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.storyboard.QPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ECA57EED1D3D11E3009389F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.storyboard.QPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ECA57EEF1D3D11E3009389F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.storyboard.QPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QPlayer.app/QPlayer";
+			};
+			name = Debug;
+		};
+		ECA57EF01D3D11E3009389F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.storyboard.QPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QPlayer.app/QPlayer";
+			};
+			name = Release;
+		};
+		ECA57EF21D3D11E3009389F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.storyboard.QPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QPlayer;
+			};
+			name = Debug;
+		};
+		ECA57EF31D3D11E3009389F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.storyboard.QPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECA57EB91D3D11E3009389F4 /* Build configuration list for PBXProject "QPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECA57EE91D3D11E3009389F4 /* Debug */,
+				ECA57EEA1D3D11E3009389F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECA57EEB1D3D11E3009389F4 /* Build configuration list for PBXNativeTarget "QPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECA57EEC1D3D11E3009389F4 /* Debug */,
+				ECA57EED1D3D11E3009389F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECA57EEE1D3D11E3009389F4 /* Build configuration list for PBXNativeTarget "QPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECA57EEF1D3D11E3009389F4 /* Debug */,
+				ECA57EF01D3D11E3009389F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECA57EF11D3D11E3009389F4 /* Build configuration list for PBXNativeTarget "QPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECA57EF21D3D11E3009389F4 /* Debug */,
+				ECA57EF31D3D11E3009389F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECA57EB61D3D11E3009389F4 /* Project object */;
+}
