@@ -68,8 +68,8 @@
 
 //隐藏navigation tabbar 电池栏
 - (void)toolbarHidden:(BOOL)Bool{
-//    self.navigationController.navigationBar.hidden = Bool;
-//    self.tabBarController.tabBar.hidden = Bool;
+    self.navigationController.navigationBar.hidden = Bool;
+    self.tabBarController.tabBar.hidden = Bool;
     [[UIApplication sharedApplication] setStatusBarHidden:Bool withAnimation:UIStatusBarAnimationFade];
 }
 - (void)didReceiveMemoryWarning {

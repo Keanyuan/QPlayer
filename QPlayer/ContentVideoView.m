@@ -162,4 +162,5 @@ static const CGFloat VideoPlayerBtnHeight = 70.0f;
     }
     return _playBtn;
 }
+
 @end
